@@ -223,3 +223,12 @@ padding-top: 3rem;
 .btn-cadastrar{
   padding-top: 1rem;
 }
+
+@media only screen and (min-width: 601px) { /*Correção na resolução*/
+  nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    height: 64px;
+    line-height: 68px;
+    float: right;
+    margin: 0;
+  }
+}
