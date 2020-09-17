@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color:#f4f4f4;
+}
+.nav-wrapper{
+  background-color: #5CC6D0;
+}
+.btn-large{
+  background-color:#F2724F;
+}
+
+.btn-large:hover{
+  background-color:#5CC6d0;
+}
+
+.page-footer{
+  background-color: #F2724F;
+}
+
+.titulo-cf{
+  color: #5CC6D0;
+}
+
+.texto-app{
+padding: 10px;
+color: #14213D;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.texto-casos{
+  color: #5CC6D0;
+  text-align: center;
+}
+
+/** Redes Sociais**/
+.social-media {
+  margin: 1rem 0;
+}
+
+.link-social-media:not(:first-child){
+  margin-left: 10px;
+}
+
+.link-social-media .item-social-media {
+  transition: background-color .5s;
+}
+
+.link-social-media:hover .item-social-media{
+  background-color: #5CC6d0;
+  color: #ffff;
+  border-color: #5CC6d0;
+}
+
+.list-social-media {
+  display: flex;
+  list-style-type: none;
+}
+
+body p{
+  font-family: 'Roboto', sans-serif;
+  color:#14213D;
+  
+}
+
+.item-social-media {
+  border: 1px solid #5CC6d0;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #5CC6d0;
+}
+/** Redes Sociais**/
+
+.material-icons{
+  margin-bottom: 1em;
+}
+
+.container-casos{
+  display: flex;
+}
+
+.fab fa-instagram{
+  color: white;
+}
+
+.sb-titulo h2{
+color: #5CC6d0;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+
+.sb-titulo p{
+  margin-left: 3em;
+  margin-right: 3em;
+  font-family: 'Roboto', sans-serif;
+   
+}
+
+.s-voluntarios h4{
+color: #5CC6d0;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.footer-sb{
+padding-top: 5rem;
+}
+
+/*CSS LOGIN*/
+
+.t-login{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color:#414A4E;
+}
+
+/*Centralização Do Formulário*/
+.login-page{
+  padding-top: 5em;
+}
+
+
+
+/* CSS CADASTROS */
+
+.btn{
+  background-color: #F2724F;
+}
+
+/*Textos Casos*/
+
+.paragrafo-casos{
+  text-align: left;
+}
+
+.caso-especifico{
+padding-top: 3rem;
+}
+
+.video-doacoes{
+  padding-top: 3rem;
+}
+
+.video-caso{
+  padding-top: 0.5rem;
+}
+
+.titulo-principal{
+  font-family: 'Montserrat', sans-serif;
+  color: #5CC6d0;
+}
+
+
+.titulo-footer {
+  color:white;
+}
+
+.paragrafo-footer{
+  color: white;
+}
+
+
+/* CSS Titulos dos cadastros*/
+
+.titulos-cadastro{
+  font-family: 'Montserrat', sans-serif;
+  color: #5CC6D0;
+  padding-top: 2rem;
+}
+
+.linha-final{
+  padding-top: 3rem;
+}
+
+.botao-compartilhar{
+  padding-top: 2rem;
+  
+}
+
+/* Contato*/
+
+.input-field label {
+  color: #444;
+ }
+ /* label focus color */
+ .input-field input:focus + label,
+ {
+  color: #444;
+ }
+ /* label underline focus color */
+ .input-field input[type=text]:focus {
+  border-bottom: 1px solid #444;
+  box-shadow: 0 1px 0 0 #444;
+ }
+ /* valid color */
+ .input-field input[type=text].valid {
+  border-bottom: 1px solid #444;
+  box-shadow: 0 1px 0 0 #444;
+ }
+ /* invalid color */
+ .input-field input[type=text].invalid {
+  border-bottom: 1px solid #444;
+  box-shadow: 0 1px 0 0 #444;
+ }
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+  color: #444;
+ }
+
+.btn-cadastrar{
+  padding-top: 1rem;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>DOA BEM</title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+      <link rel="stylesheet" href="../css/layout.css"/>
+      <script src="https://kit.fontawesome.com/83854fd366.js" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <!--Barra De Navegação-->
+      <nav>
+         <div class="nav-wrapper">
+            <div class="row">
+               <div class="col s8 m3 offset-m1">
+                  <!--Ajuste da Logo-->
+                  <!--logo-->
+                  <a href="../index.html" >
+                  <img class="responsive-img offset-s3" width="57" src="../imagens/doabem.png">
+                  </a>
+               </div>
+               <!--Fim Ajuste Logo-->
+               <!--Icone para abrir no mobile-->
+               <div class="col s3 offset-s1 m7">
+                  <a href="#" data-target="mobile-navbar" class="sidenav-trigger">
+                  <i class="material-icons">menu</i>
+                  </a>
+                  <ul id="navbar-itens" class="right hide-on-med-and-down">
+                     <li><a href="../pages/sobre.html">Sobre</a></li>
+                     <li><a href="../pages/casos.html">Casos</a></li>
+                     <li><a href="../pages/mapa.html">Mapa</a></li>
+                     <li><a href="../pages/login.html">Login</a></li>
+                     <li>
+                        <a class="dropdown-trigger" data-target="dropdown-menu" href="badges.html" >
+                        Cadastro <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                        <!--Dropdown-->
+                        <ul id="dropdown-menu" class="dropdown-content">
+                           <li><a href="../pages/cadastropf.html">Pessoa Física</a></li>
+                           <li><a href="../pages/cadastropj.html">Pessoa Jurídica</a></li>
+                           <li class="divider"></li>
+                           <li><a href="../pages/beneficiario.html">Beneficiário</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="sass.html"><i class="material-icons left">search</i>Pesquisar Casos</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!--Fim Barra de Navegação-->
+      <!--Menu mobile-->
+      <ul id="mobile-navbar" class="sidenav">
+         <li><a href="../pages/sobre.html">Sobre</a></li>
+         <li><a href="../pages/casos.html">Casos</a></li>
+         <li><a href="../pages/mapa.html">Mapa</a></li>
+         <li><a href="../pages/login.html">Login</a></li>
+         <li><a href="badges.html">Pesquisar Casos</a></li>
+         <li>
+            <a href="#" class="link-nav-arrow">Cadastro <i class="material-icons right">arrow_drop_down</i></a>
+            <ul class="list-nav-second hide">
+               <li class="item-nav-second">
+                  <a href="../pages/cadastropf.html">Pessoa Física</a>
+               </li>
+               <li class="item-nav-second">
+                  <a href="../pages/cadastropj.html">Pessoa Jurídica</a>
+               </li>
+               <li class="item-nav-second">
+                  <a href="../pages/beneficiario.html">Beneficiário</a>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <!--Fim Menu Mobile-->
+      <!--Sobre Nós-->
+      <div class="sb-titulo">
+         <section>
+            <header>
+               <h2>Sobre Nós</h2>
+               <p>A Áhgil Soluções Tecnológicas, nasceu no início de 2020 inovando e desenvolvendo o maior site de doações do país, integrando pessoas físicas e empresas a beneficiários ajudando-os a receber suas doações de forma segura e rápida.
+                  Utilizando da expertise que temos em nossa equipe, resolvemos desenvolver a primeira plataforma composta de um web site de doações integrada a um aplicativo. O DoaBem é um produto para aproximar doadores a beneficiários.
+               </p>
+               <br>
+               <p>Uma plataforma online, administrada pela Áhgil, empresa de multi plataformas digitais, atuante no mercado de tecnologia de web developer e mobile app.
+                  Nós vamos revolucionar o seu modo de captar doações, de maneira que você possa financiar a sua visão, o seu sonho. Faça a diferença em sua comunidade e ajude a melhorar a vida de pessoas em todo o mundo. Não estamos apenas vendendo uma plataforma de doações, queremos atender as suas necessidades, tornando real os seus planos de ajudar ao próximo. Temos as soluções perfeitas para você.
+               </p>
+            </header>
+         </section>
+      </div>
+      <li class="divider"></li>
+      <!--Fim Sobre Nós-->
+      <!--Voluntários-->
+      <div class="s-voluntarios">
+         <section>
+            <header>
+               <h4>+ De 200 Voluntários</h4>
+               <div class="container">
+                  <img class="responsive-img z-depth-4" src="../imagens/voluntarios.jpg">
+               </div>
+            </header>
+         </section>
+      </div>
+      <!--Fim Voluntários-->
+      <!--Footer-->
+      <div class="footer-sb">
+         <footer class="page-footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col l3 m3 s12">
+                     <h5 class="white-text">Transparência</h5>
+                     <ul>
+                        <li><a class="white-text" href="#!">Empresa parceira</a></li>
+                        <li><a class="white-text" href="#!">Ajuda</a></li>
+                        <li><a class="white-text" href="#!">Voluntários</a></li>
+                        <li><a class="white-text" href="#!">Blog</a></li>
+                     </ul>
+                  </div>
+                  <div class="col l3 m3 s12">
+                     <h5 class="white-text">Links úteis</h5>
+                     <ul>
+                        <li><a class="white-text" href="../pages/login.html">Sua conta</a></li>
+                        <li><a class="white-text" href="#!">Relatórios</a></li>
+                        <li><a class="white-text" href="../pages/contato.html">Fale Conosco</a></li>
+                     </ul>
+                  </div>
+                  <div class="col l3 m3 s12">
+                     <h5 class="white-text">Contato</h5>
+                     <p class="paragrafo-footer">Recife-PE</p>
+                     <p class="paragrafo-footer">(81) 4106-6985</p>
+                     <p class="paragrafo-footer">doabem@gmail.com</p>
+                  </div>
+                  <div id="social" class="col l3 m3 s12">
+                     <h5 class="white-text">Nossas Redes</h5>
+                     <div class="social-media">
+                        <ul class="list-social-media">
+                           <a class="link-social-media" href="#">
+                              <li class="item-social-media">
+                                 <i class="fab fa-instagram"></i>
+                              </li>
+                           </a>
+                           <a class="link-social-media" href="#">
+                              <li class="item-social-media">
+                                 <i class="fab fa-youtube"></i>
+                              </li>
+                           </a>
+                           <a class="link-social-media" href="#">
+                              <li class="item-social-media">
+                                 <i class="fab fa-facebook"></i>
+                              </li>
+                           </a>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Footer-copyright-->
+            <div class="footer-copyright">
+               <div class="container">
+                  Create by <a class="orange-text text-lighten-3" href="#!">Áhgil - Soluções Tecnológicas.</a>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <!--Fim Footer-->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="../js/auto.js"></script>
+   </body>
+</html>

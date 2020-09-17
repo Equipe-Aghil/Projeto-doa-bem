@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html class="login" lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>DOA BEM</title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+      <link rel="stylesheet" href="../css/layout.css"/>
+      <script src="https://kit.fontawesome.com/83854fd366.js" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+   </head>
+   <body id="body-login">
+      <!--Barra De Navegação-->
+      <nav>
+         <div class="nav-wrapper">
+            <div class="row">
+               <div class="col s8 m3 offset-m1">
+                  <!--Ajuste da Logo-->
+                  <!--logo-->
+                  <a href="../index.html" >
+                  <img class="responsive-img offset-s3" width="57" src="../imagens/doabem.png">
+                  </a>
+               </div>
+               <!--Fim Ajuste Logo-->
+               <!--Icone para abrir no mobile-->
+               <div class="col s3 offset-s1 m7">
+                  <a href="#" data-target="mobile-navbar" class="sidenav-trigger">
+                  <i class="material-icons">menu</i>
+                  </a>
+                  <ul id="navbar-itens" class="right hide-on-med-and-down">
+                     <li><a href="../pages/sobre.html">Sobre</a></li>
+                     <li><a href="../pages/casos.html">Casos</a></li>
+                     <li><a href="../pages/mapa.html">Mapa</a></li>
+                     <li><a href="../pages/login.html">Login</a></li>
+                     <li>
+                        <a class="dropdown-trigger" data-target="dropdown-menu" href="badges.html" >
+                        Cadastro <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                        <!--Dropdown-->
+                        <ul id="dropdown-menu" class="dropdown-content">
+                           <li><a href="../pages/cadastropf.html">Pessoa Física</a></li>
+                           <li><a href="../pages/cadastropj.html">Pessoa Jurídica</a></li>
+                           <li class="divider"></li>
+                           <li><a href="../pages/beneficiario.html">Beneficiário</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="sass.html"><i class="material-icons left">search</i>Pesquisar Casos</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!--Fim Barra de Navegação-->
+      <!--Menu mobile-->
+      <ul id="mobile-navbar" class="sidenav">
+         <li><a href="../pages/sobre.html">Sobre</a></li>
+         <li><a href="../pages/casos.html">Casos</a></li>
+         <li><a href="../pages/mapa.html">Mapa</a></li>
+         <li><a href="../pages/login.html">Login</a></li>
+         <li><a href="badges.html">Pesquisar Casos</a></li>
+         <li>
+            <a href="#" class="link-nav-arrow">Cadastro <i class="material-icons right">arrow_drop_down</i></a>
+            <ul class="list-nav-second hide">
+               <li class="item-nav-second">
+                  <a href="../pages/cadastropf.html">Pessoa Física</a>
+               </li>
+               <li class="item-nav-second">
+                  <a href="../pages/cadastropj.html">Pessoa Jurídica</a>
+               </li>
+               <li class="item-nav-second">
+                  <a href="../pages/beneficiario.html">Beneficiário</a>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <!--Fim Menu Mobile-->
+      <!--Form Login-->
+      <div class="container">
+         <div class="login-page">
+            <div class="row">
+               <div class="col s12 m4"></div>
+               <div class="card">
+                  <div class="card-action  grey lighten-1 white-text">
+                     <!--Cartão,cor e tipo de texto-->
+                     <h3 class="t-login">Login</h3>
+                  </div>
+                  <div class="card-content">
+                     <!--Recepiente do cartão-->
+                     <div class="form-field">
+                        <label for="username">E-mail</label><!--Criação das labels determinada pela classe-->
+                        <input type="text" id="username"><!--Cria uma entrada de dados para o usúario, "Uma linha"-->
+                     </div>
+                     <br>
+                     <div class="form-field">
+                        <label for="password">Senha</label><!--Criação das labels determinada pela classe-->
+                        <input type="password" id="password"><!--Cria uma entrada de dados para o usúario, "Uma linha"-->
+                     </div>
+                     <br>
+                     <div class="form-field">
+                        <button class="btn-large">Login</button>
+                     </div>
+                     <br>
+                     <div class="row">
+                        <div class="input-field col s6 m6 l6">
+                           <p class="margin medium-small"><a href="#">Cadastro</a></p>
+                        </div>
+                        <div class="input-field col s6 m6 l6">
+                           <p class="margin right-align medium-small"><a href="#">Esqueceu a senha?</a></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <!--Fim Form Login-->
+      <!--Footer-->
+      <div class="footer-sb">
+         <footer class="page-footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col l3 m3 s12">
+                     <h5 class="white-text">Transparência</h5>
+                     <ul>
+                        <li><a class="white-text" href="#!">Empresa parceira</a></li>
+                        <li><a class="white-text" href="#!">Ajuda</a></li>
+                        <li><a class="white-text" href="#!">Voluntários</a></li>
+                        <li><a class="white-text" href="#!">Blog</a></li>
+                     </ul>
+                  </div>
+                  <div class="col l3 m3 s12">
+                     <h5 class="white-text">Links úteis</h5>
+                     <ul>
+                        <li><a class="white-text" href="../pages/login.html">Sua conta</a></li>
+                        <li><a class="white-text" href="#!">Relatórios</a></li>
+                        <li><a class="white-text" href="../pages/contato.html">Fale Conosco</a></li>
+                     </ul>
+                  </div>
+                  <div class="col l3 m3 s12">
+                     <h5 class="white-text">Contato</h5>
+                     <p class="paragrafo-footer">Recife-PE</p>
+                     <p class="paragrafo-footer">(81) 4106-6985</p>
+                     <p class="paragrafo-footer">doabem@gmail.com</p>
+                  </div>
+                  <div id="social" class="col l3 m3 s12">
+                     <h5 class="white-text">Nossas Redes</h5>
+                     <div class="social-media">
+                        <ul class="list-social-media">
+                           <a class="link-social-media" href="#">
+                              <li class="item-social-media">
+                                 <i class="fab fa-instagram"></i>
+                              </li>
+                           </a>
+                           <a class="link-social-media" href="#">
+                              <li class="item-social-media">
+                                 <i class="fab fa-youtube"></i>
+                              </li>
+                           </a>
+                           <a class="link-social-media" href="#">
+                              <li class="item-social-media">
+                                 <i class="fab fa-facebook"></i>
+                              </li>
+                           </a>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Footer-copyright-->
+            <div class="footer-copyright">
+               <div class="container">
+                  Create by <a class="orange-text text-lighten-3" href="#!">Áhgil - Soluções Tecnológicas.</a>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <!--Fim Footer-->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="../js/auto.js"></script>
+   </body>
+</html>
